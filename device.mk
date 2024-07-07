@@ -45,10 +45,10 @@ PRODUCT_PACKAGES += \
     WifiResTarget
 
 PRODUCT_PACKAGES += \
-    FrameworksResCorfur \
-    LineageSystemUICorfur \
-    SettingsProviderResCorfur \
-    SystemUIResCorfur
+    FrameworksResFogos \
+    LineageSystemUIFogos \
+    SettingsProviderResFogos \
+    SystemUIResFogos
 
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
@@ -501,4 +501,4 @@ PRODUCT_BOOT_JARS += \
     WfdCommon
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/motorola/corfur/corfur-vendor.mk)
+$(call inherit-product, vendor/motorola/fogos/fogos-vendor.mk)
